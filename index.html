@@ -53,6 +53,7 @@
             <li><a href="https://goo.gl/forms/bb2X1xFmzWoP8NAA3" target="_blank">Academy</a></li>
              <li><a href="https://goo.gl/forms/bb2X1xFmzWoP8NAA3" target="_blank">SDP</a></li>
                <li><a href="https://goo.gl/forms/bb2X1xFmzWoP8NAA3" target="_blank">S2</a></li>
+                 <li><a href="#who">Who We Are</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -60,16 +61,25 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
-    <div class="jumbotron">
+    <div id="jumbotron" class="jumbotron">
       <div class="container">
         <h1>Sounders Developmental Academy</h1>
         <p>A place to LEARN - DEVELOP - and REPORT your HEALTH and PERFORMANCE feedback.</p>
-        <p><a class="btn btn-danger btn-lg" href="#stay-involved" role="button">LEARN &raquo;</a></p>
-        <img src="images/sounderslogo.png" title="Sounders FC", alt="Sounders FC">
+        <p><a class="btn btn-danger btn-lg" role="button" data-toggle="modal" data-target="#myModal">LEARN &raquo;</a></p>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-hidden="true">x</button>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/hkDR5qoiufQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+          <img src="images/sounderslogo.png" title="Sounders FC", alt="Sounders FC">
       </div>
     </div>
 
-
+    <div id="who">
       <div class="container homepage">
       <img src="images/us_sda.png" alt="SOUNDERS Academy" title="SOUNDERS Academy" 
       style="width:60px;height:120px;">
@@ -106,12 +116,19 @@
        </div> <!-- /container -->
      </div>
 
-    
+
 
     <footer>
     <div class="container">  
         <p><img src="images/sounderslogo.png"></p>
+      </div>
+      <div id="back-to-top">
+        <a href="#jumbotron"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
+      </div>
     </footer>
+
+   
+
    
 
 
@@ -120,6 +137,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
