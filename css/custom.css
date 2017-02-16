@@ -17,6 +17,7 @@ ul.nav {
 	
 }
 
+
 footer {
 	background-color: #132530;
 	padding-top: 50px;
@@ -27,8 +28,8 @@ footer {
 
 #back-to-top {
     position: absolute;
-    bottom: 40px;
-    right: 20px;
+    bottom: 25px;
+    right: 2px;
 
 }
 
@@ -50,9 +51,10 @@ footer {
 
 .jumbotron {
 	text-align: center;
-	background-image: url('../images/morris.jpeg');
+	background-image: url('../images/stadium.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 128px;
 	background-position: center; 
 	color: white;
 }
@@ -82,8 +84,18 @@ footer {
 	    width: 30px;
 	    opacity: 1;
 	    border-radius: 40px;
-	    
-	}
+	    -webkit-border-radius: 24px;
+	    -moz-border-radius: 24px;
+
+}
+
+.modal-dialog {
+	position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 25%;
+    margin-top: 95px;
+}
 
 .btn-lg {
 	font-size: 36px;
@@ -159,6 +171,7 @@ footer {
 
 	.jumbotron h1 {
 		font-size: 24px;
+		
 		
 }
 	.jumbotron p {
