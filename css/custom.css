@@ -77,8 +77,8 @@ footer {
 
 .modal-content button.close {
 	    position: absolute;
-	    top: 5px;
-	    right: 5px;
+	    top: 20px;
+	    right: 60px;
 	    background-color: white;
 	    font-size: 20px;
 	    width: 30px;
@@ -95,6 +95,14 @@ footer {
     margin-left: -300px;
     top: 25%;
     margin-top: 95px;
+}
+
+#intrinsic-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .btn-lg {
@@ -152,7 +160,7 @@ footer {
 
 	}
 
-@media (max-width: 991px) { 
+@media (max-width: 990px) { 
 
 	.jumbotron h1 {
 		font-size: 44px;
@@ -162,15 +170,27 @@ footer {
 		padding: 0 10px;
 	}
 
+	.btn-lg {
+		font-size: 25px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	.jumbotron img {
+		width: 25%;
+	}
+
 #stay-involved .col-md-4 {
 	padding-top: 20px;
 	padding-bottom: 20px;
 } 
 
-@media (max-width: 767px) { 
+@media (max-width: 768px) { 
 
 	.jumbotron h1 {
-		font-size: 24px;
+		font-size: 18px;
 		
 		
 }
@@ -180,11 +200,23 @@ footer {
 }
 
 	.btn-lg {
+		font-size: 15px;
+	}
+
+	.modal-dialog {
+	    position: absolute;
+	    left: 50%;
+	    margin-left: -202px;
+	    top: -14%;
+	    margin-top: 91px;
+
+}
+	.homepage p {
 		font-size: 18px;
 	}
 
-	.homepage p {
-		font-size: 18px;
+	.jumbotron img {
+		width: 70%;
 	}
 
 	footer img {
